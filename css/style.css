@@ -1,0 +1,52 @@
+ body{
+ 	background-color: #f2f2f2;
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+
+.--panel{
+	background-color: white;
+    padding: 15px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.04);
+    border-radius: 6px;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+ 	transition: 0.3s;
+ }
+.--panel:hover {
+    border: 1px solid #acb0b5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
+    transform: translateY(-2px) scale(1);
+}
+.--headline-a{
+	border-bottom: solid 3px #ffd301;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 700;
+}
+.--start-btn{
+    width: 125px;
+    height: 45px;
+    border-radius: 25px;
+    border: solid 3px black;
+    font-weight: 800;
+    position: inherit;
+    z-index: 45;
+    background-color: #ff7f5000;
+}
+
+.--start-btn-yel { 
+    width: 125px;
+    height: 45px;
+    background-color: #fdfb01;
+    position: absolute;
+    border-radius: 25px;
+    z-index: 1;
+    margin: 10px;
+}
+
+ /* Botstrap css */
+ .col-centered{
+    float: none;
+    margin: 0 auto;
+}
