@@ -1,8 +1,11 @@
  body{
  	background-color: #f2f2f2;
  	font-family: 'Open Sans', sans-serif;
- }
 
+ }
+a{
+     color: #343a40;
+}
 
 .--panel{
 	background-color: white;
@@ -49,4 +52,22 @@
  .col-centered{
     float: none;
     margin: 0 auto;
+}
+
+/* preview top bar */
+.--preview-top-bar{
+    background-color: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    color: #656b73;
+    z-index: 99;
+    position: inherit;
+    margin-bottom: -3px;
+}
+.--btn-view{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #d6d6d6;
+    float: right;
+    margin-top: 4px;
 }
