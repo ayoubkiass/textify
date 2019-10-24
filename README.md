@@ -2,4 +2,4 @@
 -----------------------
 ---Design Guidelines---
 -----------------------
-<img src="imgs/Design-Guidelines.png" >
+<img src="Design-Guidelines.png" >
