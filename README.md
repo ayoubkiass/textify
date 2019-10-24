@@ -2,4 +2,4 @@
 -----------------------
 ---Design Guidelines---
 -----------------------
-<img src="imgs/ico-add.png" >
+<img src="imgs/Design-Guidelines.png" >
